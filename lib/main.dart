@@ -16,7 +16,7 @@ void main() async {
 }
 
 class MyApp extends StatefulWidget {
-  // This widget is the root of your application. 88
+  // This widget is the root of your application.
   @override
   State<MyApp> createState() => _MyAppState();
 
