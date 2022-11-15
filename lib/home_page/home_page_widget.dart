@@ -58,15 +58,19 @@ class _HomePageWidgetState extends State<HomePageWidget> {
       body: SafeArea(
         child: GestureDetector(
           onTap: () => FocusScope.of(context).unfocus(),
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              SelectionArea(
-                  child: Text(
-                'hhgh',
-                style: FlutterFlowTheme.of(context).bodyText1,
-              )),
-            ],
+          child: Align(
+            alignment: AlignmentDirectional(0, 0),
+            child: Column(
+              mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                SelectionArea(
+                    child: Text(
+                  'hhgh999',
+                  style: FlutterFlowTheme.of(context).bodyText1,
+                )),
+              ],
+            ),
           ),
         ),
       ),
